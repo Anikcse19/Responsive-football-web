@@ -187,17 +187,19 @@ media query
         width: 100%;
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        grid-row-gap: 30px;
+        grid-row-gap: 40px;
         align-items: center;
         justify-content: center;
 
     }
     .title-part h1{
         font-size: 1em;
+        padding-right: 20px;
     }
     .title-part img{
         width: 400px;
         height: 350px;
+        padding-right: 50px;
     }
     .players{
         display: grid;
