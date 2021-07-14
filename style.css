@@ -193,11 +193,11 @@ media query
 
     }
     .title-part h1{
-        font-size: 26px;
+        font-size: 1em;
     }
     .title-part img{
-        width: 450px;
-        height: 400px;
+        width: 400px;
+        height: 350px;
     }
     .players{
         display: grid;
@@ -239,10 +239,14 @@ media query
         padding-left: 10px;
         width: 350px;
         height: 400px;
+        align-items: center;
+        justify-content: center;
     }
     .match-info{
         width: 330px;
         height: 580px;
+        align-items: center;
+        justify-content: center;
     }
     .match-info img{
         padding-right: 10px;
