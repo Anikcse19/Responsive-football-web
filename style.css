@@ -177,9 +177,10 @@ media query
     grid-template-columns: repeat(1,1fr);
     justify-content: center;
     align-items: center;
+    padding-left: 15px;
     }
     .copa-highlights{
-        margin-top: 650%;
+        margin-top: 600%;
         padding-left: 65px;
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -209,12 +210,16 @@ media query
     }
     .match iframe{
         padding-left: 10px;
-        width: 300px;
+        width: 350px;
         height: 400px;
     }
     .match-info{
         width: 330px;
         height: 580px;
+    }
+    .match-info img{
+        padding-right: 10px;
+
     }
     .footer-logo img{
         width: 350px;
