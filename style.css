@@ -5,6 +5,8 @@
 /* common styles */
 body{
     font-family: 'Poppins', sans-serif;
+    width: 100%;
+    margin: auto;
 
 }
 /* Header  part style start  */
@@ -25,11 +27,12 @@ nav{
     width: 100%;
     margin: auto;
     background-color: #2D25A0;
-    display: flex;
-    justify-content: space-between;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
     align-items: center;
     padding-top: 40px;
+    padding-left: 290px;
 }
 nav a{
     text-decoration: none;
@@ -179,7 +182,13 @@ media query
 /* for mobile  */
 @media only screen and (max-width:688px) {
     .nav-bar{
-        display: hidden;
+        display: none;
+    }
+    .title-part{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+
     }
     .players{
         display: grid;
