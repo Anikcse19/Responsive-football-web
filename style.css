@@ -179,16 +179,21 @@ media query
     align-items: center;
     }
     .copa-highlights{
-        margin-top: 700%;
-        padding-left: 50px;
+        margin-top: 650%;
+        padding-left: 65px;
         display: grid;
-    grid-template-columns: repeat(1,1fr);
-    align-items: center;
-    justify-content: center;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        justify-content: center;
+    }
+    .copa-highlights h1{
+        padding-left: 10px;
     }
     .copa-highlights p{
         width: 450px;
         height: 150px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .copa-highlights img{
         margin-top: 20%;
@@ -204,12 +209,12 @@ media query
     }
     .match iframe{
         padding-left: 10px;
-        width: 420px;
+        width: 300px;
         height: 400px;
     }
     .match-info{
-        width: 370px;
-        height: 610px;
+        width: 330px;
+        height: 580px;
     }
     .footer-logo img{
         width: 350px;
