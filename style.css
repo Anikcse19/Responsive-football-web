@@ -192,6 +192,13 @@ media query
         justify-content: center;
 
     }
+    .title-part h1{
+        font-size: 26px;
+    }
+    .title-part img{
+        width: 450px;
+        height: 400px;
+    }
     .players{
         display: grid;
     grid-template-columns: repeat(1,1fr);
