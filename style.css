@@ -179,27 +179,28 @@ media query
 
 /* for mobile  */
 @media only screen and (max-width:688px) {
+    
 
     .nav-bar{
         display: none;
     }
     .title-part{
+        margin-left: 0%;
         width: 100%;
         display: grid;
         grid-template-columns: repeat(1,1fr);
         grid-row-gap: 40px;
-        align-items: center;
-        justify-content: center;
+       
 
     }
     .title-part h1{
-        font-size: 1em;
-        padding-right: 15%;
+        font-size: 10px;
+        padding-right: 50px;
     }
     .title-part img{
         width: 400px;
         height: 350px;
-        margin-right: 20%;
+        padding-right: 180px;
     }
     .players{
         display: grid;
@@ -207,6 +208,13 @@ media query
     justify-content: center;
     align-items: center;
     padding-left: 25px;
+    margin: auto;
+    }
+    .player{
+        justify-content: center;
+        align-items: center;
+        margin-left: 0%;
+        margin-right: 0%;
     }
     .copa-highlights{
         margin-top: 600%;
