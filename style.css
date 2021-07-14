@@ -164,3 +164,57 @@ nav img:hover{
       padding-left: 20px;
   }
   
+
+/*---------------- 
+media query 
+--------------*/
+
+
+/* for mobile  */
+@media only screen and (max-width:688px) {
+    .players{
+        display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+    align-items: center;
+    }
+    .copa-highlights{
+        margin-top: 700%;
+        padding-left: 50px;
+        display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    justify-content: center;
+    }
+    .copa-highlights p{
+        width: 450px;
+        height: 150px;
+    }
+    .copa-highlights img{
+        margin-top: 20%;
+        margin-left: 3%;
+        width: 400px;
+        height: 450px;
+    }
+    .match{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        justify-content: center;
+    }
+    .match iframe{
+        padding-left: 10px;
+        width: 420px;
+        height: 400px;
+    }
+    .match-info{
+        width: 370px;
+        height: 610px;
+    }
+    .footer-logo img{
+        width: 350px;
+        padding-left: auto;
+
+    }
+    
+}
