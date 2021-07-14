@@ -24,15 +24,13 @@ nav{
     padding-top: 40px;
 }
 .title-part{
-    width: 100%;
-    margin: auto;
     background-color: #2D25A0;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     justify-content: center;
     align-items: center;
     padding-top: 40px;
-    padding-left: 150px;
+    padding-left: 100px;
 }
 nav a{
     text-decoration: none;
@@ -186,11 +184,12 @@ media query
         display: none;
     }
     .title-part{
-        width: 650px;
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        grid-row-gap: 20px;
+        grid-row-gap: 30px;
         align-items: center;
+        justify-content: center;
 
     }
     .players{
@@ -198,7 +197,7 @@ media query
     grid-template-columns: repeat(1,1fr);
     justify-content: center;
     align-items: center;
-    padding-left: 15px;
+    padding-left: 25px;
     }
     .copa-highlights{
         margin-top: 600%;
